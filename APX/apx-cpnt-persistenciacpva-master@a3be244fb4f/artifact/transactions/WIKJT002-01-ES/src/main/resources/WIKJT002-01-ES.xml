@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="WIKJT002" application="WIKJ" version="01" country="ES" language="ES">
+	<paramsIn>
+		<dto order="1" name="ejerPuntuableIn" mandatory="0" package="com.bbva.wikj.dto.ejerpuntuable.EjerPuntuableIn" artifactId="WIKJC002">
+			<parameter order="1" name="id" mandatory="1" type="String" size="15"/>
+			<parameter order="2" name="dateField" mandatory="0" type="String" size="50"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="ejerPuntuableOut" mandatory="0" package="com.bbva.wikj.dto.ejerpuntuable.EjerPuntuableOut" artifactId="WIKJC002">
+			<parameter order="1" name="id" mandatory="0" type="String" size="15"/>
+			<parameter order="2" name="dateField" mandatory="0" type="String" size="50"/>
+		</dto>
+	</paramsOut>
+	<description>trxejerpuntuable</description>
+</transaction>
